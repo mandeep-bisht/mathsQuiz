@@ -1,0 +1,58 @@
+body{
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+form{
+    background-color: white;
+    padding: 0px 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    border-radius: 10px;
+    margin: 10px; 
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+    font-family: 'Caveat', cursive;
+}
+.input::placeholder{
+    color: rgb(138, 133, 133);
+    font-family: 'Caveat', cursive;
+}
+
+.btn{
+    background-color: green;
+    display: block;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(0.8);
+}
+
+.score{
+    font-size: 18px;
+    color: green;
+    text-align: right;
+}
